@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+#titulo {
+    font-family: sans-serif;
+    color: #f3f3f3;
+    text-align: center;
+} 
+
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #fafafa;
+    margin-left: 10%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+
+
+
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    justify-content: right;
+    text-align: center;
+    padding: 200px;
+
+}
+
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #520a0a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img{
+
+    text-align: center;
+}

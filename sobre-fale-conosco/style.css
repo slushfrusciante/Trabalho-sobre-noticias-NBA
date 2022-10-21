@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho {
+    align-items: right;
+    justify-content: space-around;
+    padding: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.meio{
+ justify-content: space-around;
+ padding: 20px;
+text-align: center;
+color: white;
+
+}
+.lista{
+    text-align: center;
+    padding: 30px;
+}
+
+.P2{
+    text-align: center;
+    color: white;
+}
+
+.p{
+    text-align: center;
+    color: white;
+}
+
+.pt2{
+    text-align: center;
+    color: white;
+    
+}
+
