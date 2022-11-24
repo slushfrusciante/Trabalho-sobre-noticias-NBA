@@ -7,38 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
   
 </head>
 
 <body>
     <div>
         <h1 id="titulo">Cadastro </h1>
-        <br>
-        <div class="campo">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" required>
-        </div>
 
     </div>
     <div class="campo">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="Digite seu Nome" id="nome" required>
+    
+    </div>
+    <div class="campo">
         <label for="sobrenome">Número</label>
-        <input type="text" name="sobrenome" id="sobrenome" required>
+        <input type="text" name="sobrenome" placeholder="Digite seu Número" id="sobrenome" required>
     </div>
    
 
     <div class="campo">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required>
-        <div class="textfield">
-            <label for="senha">senha</label>
-            <input type="password" name="senha" placeholder="senha">
-                </div>
-                <button class="btn-login">Login</button>
-
+        <label for="email">E-mail</label>
+        <input type="email" name="email" placeholder="Digite seu email" id="email" required>
     </div>
+    <div class="campo">
+        
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" placeholder="Digite sua senha">
+                
+    </div>
+    <button class="btn-login" onclick="cadastrar()">ENTRAR</button>
  <a target="_blank" class="img" href="file:///C:/Users/aninh/Documents/trabalho%20sobre%20noticias/login/login.html">Faça o Login</a>
 
- <div><img src="imagens/escudos.lnk" alt="escudos"></div>
+ <div><img src="./imagens/escudos.png" alt="escudos"></div>
 </body>
 
 </html>
