@@ -12,6 +12,46 @@
 </head>
 
 <body>
+    <div>
+        <table id = "tabela">  
+            <tr>
+              <th>Nome</th>
+              <th>Usuário</th>
+              <th>CPF</th>
+              <th>Número</th>
+              <th>E-mail</th>
+              <th>Endereço</th>
+              <th>Gênero</th>
+            </tr>
+            <tr>
+              <td>Luan</td>
+              <td>slush</td>
+              <td>3232433232-87</td>
+              <td>(79)999189807</td>
+              <td>luans@hotmail.com</td>
+              <td>Brasil</td>
+              <td> Masculino</td>
+            </tr>
+            <tr>
+                <td>Ana Paula</td>
+                <td>anapds</td>
+                <td>323232118898-08</td>
+                <td>(79)999432487</td>
+                <td>anapaula32@hotmail.com</td>
+                <td>Brasil</td>
+                <td>Feminino</td>
+              </tr> 
+              <tr>
+                <td>Matheus</td>
+                <td>mattsmeguinha</td>
+                <td>8323232332-90</td>
+                <td>(79)9996553334</td>
+                <td>meguinha255@hotmail.com</td>
+                <td>Brasil</td>
+                <td>Outros</td>
+              </tr>
+          </table>
+    </div>   
     <form>
     <div>
         <h1 id="titulo">Cadastro</h1> 
@@ -53,15 +93,15 @@
         <input type="email" name="email" placeholder="Digite seu email" id="email" required>
     </div>
     <p>Selecione seu Gênero</p>
-    <input type="radio" id="genero1" name="genero" value="1">
+    <input type="radio" id="genero1" name="genero" value="1" checked>
     <label for="Homem">Masculino</label><br>
     <input type="radio" id="genero2" name="genero" value="2">
     <label for="Mulher">Feminino</label><br>
     <input type="radio" id="genero3" name="genero" value="3">
     <label for="Outros">Outros</label><br>
     
-    <button class="btn-login" onclick="limpar()">LIMPAR</button>
-    <button class="btn-login" onclick="cadastrar()">SALVAR</button>
+    <button type ='button' class="btn-login" onclick="limpar()">LIMPAR</button>
+    <button type ='button' class="btn-login" onclick="cadastrar()">SALVAR</button>
  <a target="_blank" class="img" href="file:///C:/Users/aninh/Documents/trabalho%20sobre%20noticias/login/login.html">Faça o Login</a>
 
  <div><img src="./imagens/escudos.png" alt="escudos"></div>
